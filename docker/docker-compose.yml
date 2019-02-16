@@ -1,0 +1,13 @@
+version: '2.3'
+services:
+   springboot-postgres:
+    hostname: springboot-postgres
+    image: postgres:9.5
+    environment:
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/pgdata:/var/lib/postgresql/data
+      - ./conf/pginit:/docker-entrypoint-initdb.d
+    mem_limit: 256M

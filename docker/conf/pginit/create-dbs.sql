@@ -1,0 +1,3 @@
+CREATE USER spring WITH PASSWORD 'spring';
+CREATE DATABASE "spring" WITH OWNER spring;
+CREATE DATABASE "wire" WITH OWNER spring;

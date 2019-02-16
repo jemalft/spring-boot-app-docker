@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="54" started-at="2019-01-15T20:43:56Z" finished-at="2019-01-15T20:43:56Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="54" started-at="2019-01-15T20:43:56Z" finished-at="2019-01-15T20:43:56Z">
+      <class name="com.springboot.controller.HomeControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.springboot.controller.HomeControllerTest@32d992b2]" name="setUp" is-config="true" duration-ms="5" started-at="2019-01-15T15:43:56Z" finished-at="2019-01-15T15:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.springboot.controller.HomeControllerTest@32d992b2]" name="testHome" duration-ms="40" started-at="2019-01-15T15:43:56Z" finished-at="2019-01-15T15:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+      </class> <!-- com.springboot.controller.HomeControllerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
